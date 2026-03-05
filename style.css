@@ -1,0 +1,43 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+background-color:rgb(156, 137, 137);
+margin: 20px;
+}
+
+h1{
+color: rgba(198, 59, 59, 0.611);
+}
+h2{
+color: rgb(222, 110, 110);
+}
+h3{
+color: rgb(196, 81, 81);
+}
+ul.contacts {
+    list-style: none; /* remove default bullets */
+    padding-left: 0;
+}
+
+ul.contacts li {
+    margin: 8px 0;
+    font-style: italic; /* phone/email in italic */
+}
+
+.contact-item {
+    text-decoration: none;
+    color: #933370;
+    font-weight: bold;
+}
+
+.contact-item:hover {
+    color: #a71eb1;
+    cursor: pointer;
+}
+
+button{
+padding:10px;
+background-color:rgb(92, 84, 42);
+color:rgb(246, 5, 5);
+border:thin;
+cursor:pointer;
+}
